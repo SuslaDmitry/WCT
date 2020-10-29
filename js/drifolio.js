@@ -60,7 +60,7 @@ $(window).load(function() { // makes sure the whole site is loaded
 //========================
 $("html").niceScroll({
     mousescrollstep: 70,
-    cursorcolor: "#ea9312",
+    cursorcolor: "#12a3ea",
     cursorwidth: "5px",
     cursorborderradius: "10px",
     cursorborder: "none",
