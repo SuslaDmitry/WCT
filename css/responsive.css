@@ -81,4 +81,14 @@
 
 }
 
+@media only screen and (max-width : 1199px) {
+    .lgdisp{display: none;}
+}
 
+@media only screen and (max-width : 767, min-width : 991px) {
+    .mddisp{display: none;}
+}
+
+@media only screen and (max-width : 767px) {
+    .smdisp{display: none;}
+}
