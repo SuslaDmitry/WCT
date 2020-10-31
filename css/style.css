@@ -240,11 +240,13 @@ FEEDBACK
      background-color:#12a3ea;
      color: #fff;
      opacity: 1
+     border-color: #12a3ea;
      }
 .btn-blue:focus{
      background-color:#12a3ea;
      color: #fff;
      opacity: 1
+     border-color: #12a3ea;
      }
 
 /*================================
