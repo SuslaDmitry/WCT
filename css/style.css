@@ -206,6 +206,38 @@ footer p, footer .bigicon {color: #7e7e7e;}
 .footersocial li a {color: #7e7e7e;}
 .footersocial li a:hover {color: #12a3ea;}
 
+
+
+
+
+/*================================
+FEEDBACK
+================================*/
+
+#feedback{text-align: center;}
+
+.col-md-4, .col-md-6{padding-bottom: 0px;}
+
+.sectionfeedback{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.btn-blue{
+     background-color:#fff;
+     color: #12a3ea;
+     border: 1px solid;
+     border-color: #12a3ea;
+     opacity: 1
+     }
+.btn-blue:hover{
+     background-color:#12a3ea;
+     color: #fff;
+     opacity: 1
+     }
+
+
 /*================================
 FOLLOW BUTTON
 ================================*/
