@@ -236,7 +236,16 @@ FEEDBACK
      color: #fff;
      opacity: 1
      }
-
+.btn-blue:active{
+     background-color:#12a3ea;
+     color: #fff;
+     opacity: 1
+     }
+.btn-blue:focus{
+     background-color:#12a3ea;
+     color: #fff;
+     opacity: 1
+     }
 
 /*================================
 FOLLOW BUTTON
