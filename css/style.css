@@ -149,6 +149,10 @@ PORTFOLIO SECTION
 TESTIMONIAL SECTION
 ================================*/
 
+#testimonials{
+    padding-bottom: 100px;
+}
+
 .clientsphoto img{
     width: 80px;
     float: left;
@@ -225,29 +229,52 @@ FEEDBACK
 }
 
 .btn-blue{
-     background-color:#fff;
-     color: #12a3ea;
+     background-color:#363942;
+     color: #fff;
      border: 1px solid;
-     border-color: #12a3ea;
+     border-color: #fff;
      opacity: 1
      }
 .btn-blue:hover{
-     background-color:#12a3ea;
-     color: #fff;
+     background-color:#363942;
+     color: #12a3ea;
+     border-color: #12a3ea;
      opacity: 1
      }
 .btn-blue:active{
-     background-color:#12a3ea;
-     color: #fff;
-     opacity: 1
+     background-color:#363942;
+     color: #12a3ea;
      border-color: #12a3ea;
+     opacity: 1
      }
 .btn-blue:focus{
-     background-color:#12a3ea;
-     color: #fff;
-     opacity: 1
+     background-color:#363942;
+     color: #12a3ea;
      border-color: #12a3ea;
+     opacity: 1
      }
+
+.wrapper.style4 {
+			background-color: #363942;
+			color: #fff;
+		}
+.wrapper.style4 form input{
+color: #fff;
+border: none;
+background: #2b2d33;}
+.wrapper.style4 form select{
+color: #fff;
+border: none;
+background: #2b2d33;}
+.wrapper.style4 form textarea{
+color: #fff;
+border: none;
+background: #2b2d33;}
+
+.wrapper.style4 form input:first-child{
+color: #fff;
+border: none;
+background: #12a3ea;}
 
 /*================================
 FOLLOW BUTTON
