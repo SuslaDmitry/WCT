@@ -111,6 +111,7 @@ $(function() {
                 .removeClass('animated fadeInDown')
                 .addClass('animated fadeOutUp')
                 .fadeOut();
+
             }
         });
     });
@@ -124,3 +125,17 @@ $(function() {
 $('#services img').hover(
        function(){ $(this).addClass('animated pulse') },
        function(){ $(this).removeClass('animated pulse') })
+
+
+ /*!
+ ЭТА ФУНКЦИЯ ПОЧЕМУ ТО РАБОТАЕТ НА ЗАКРЫТИЕ NAVBAR ПОСЛЕ ПРОКРУТКИ
+ */
+
+$(document).click(function (event) {
+    var clickover = $(event.target);
+    var $navbar = $(".navbar-collapse");
+    var _opened = $navbar.hasClass("in");
+    if (_opened === true && !clickover.hasClass("navbar-toggle")) {
+        $navbar.collapse('hide');
+    }
+});
