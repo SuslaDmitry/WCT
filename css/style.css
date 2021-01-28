@@ -228,6 +228,12 @@ FEEDBACK
     padding-bottom: 50px;
 }
 
+.grecaptcha-badge {visibility: hidden;}
+
+.pp {
+    color: #7e7e7e;
+}
+
 .btn-blue{
      background-color:#363942;
      color: #fff;
